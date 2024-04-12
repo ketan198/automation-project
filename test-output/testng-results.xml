@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-12T18:49:16 IST" name="Default suite" finished-at="2024-04-12T18:49:27 IST" duration-ms="11527">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.testrunner.testRunner@185a6e9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-04-12T18:49:16 IST" name="Default test" finished-at="2024-04-12T18:49:27 IST" duration-ms="11527">
+      <class name="com.qa.testrunner.testRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.qa.testrunner.testRunner@185a6e9]" started-at="2024-04-12T18:49:16 IST" name="setUpClass" finished-at="2024-04-12T18:49:16 IST" duration-ms="458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4b65d9f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.testrunner.testRunner@185a6e9]" started-at="2024-04-12T18:49:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-12T18:49:21 IST" duration-ms="4978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sauce lab login feature"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sauce Lab Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.testrunner.testRunner@185a6e9]" started-at="2024-04-12T18:49:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-12T18:49:26 IST" duration-ms="4622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sauce lab login feature"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sauce Lab Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.qa.testrunner.testRunner@185a6e9]" started-at="2024-04-12T18:49:26 IST" name="tearDownClass" finished-at="2024-04-12T18:49:27 IST" duration-ms="1425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.testrunner.testRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
