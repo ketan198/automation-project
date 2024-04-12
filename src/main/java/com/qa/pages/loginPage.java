@@ -53,6 +53,7 @@ public class loginPage extends Base_Test{
 			e.printStackTrace();
 		}
 		driver.quit();
+		System.err.println("test new");
 	}
 	
 	
