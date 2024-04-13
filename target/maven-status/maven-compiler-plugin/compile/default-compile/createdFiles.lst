@@ -1,0 +1,4 @@
+com\qa\testrunner\testRunner.class
+com\qa\stepdefs\loginStepdefs.class
+com\qa\utils\Base_Test.class
+com\qa\pages\loginPage.class
